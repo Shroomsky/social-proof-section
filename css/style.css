@@ -212,10 +212,10 @@ button {
     grid-template-rows: 2fr 2.5fr;
   }
   .main .rate:nth-child(2) {
-    margin-left: 40px;
+    transform: translateX(2em);
   }
   .main .rate:nth-child(3) {
-    margin-left: 80px;
+    transform: translateX(4em);
   }
   .main .header {
     max-width: 70%;
@@ -242,18 +242,18 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
     height: 450px;
   }
   .main .comments .comment_card {
     width: 360px;
     height: 250px;
-    margin-right: 20px;
     font-size: 1.2rem;
   }
   .main .comments .comment_card:nth-child(2) {
-    margin-top: 40px;
+    transform: translateY(2em);
   }
   .main .comments .comment_card:nth-child(3) {
-    margin-top: 60px;
+    transform: translateY(4em);
   }
 }/*# sourceMappingURL=style.css.map */
